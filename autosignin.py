@@ -21,7 +21,7 @@ else:
 os.system('clear')
 
 
-Done = pyfiglet.figlet_format("Logged-in")
+Done = pyfiglet.figlet_format("Done")
 banner = pyfiglet.figlet_format("Auto Sign-in")
 
 def asciiBanner():
@@ -34,6 +34,9 @@ asciiBanner()
 
 usernameStr = input("[*] Gmail: ")
 passwordStr = input("[*] Password: ")
+os.system('clear')
+
+print(colored("signing in...", "blue"))
 
 browser = webdriver.Chrome()
 browser.get(('https://accounts.google.com/ServiceLogin?'
