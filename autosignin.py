@@ -27,8 +27,8 @@ else:
 
 
 
-usernameStr = input("[*] Email: ")
-passwordStr = input("[*] Lösenord: ")
+usernameStr = input("[*] Gmail: ")
+passwordStr = input("[*] Password: ")
 
 browser = webdriver.Chrome()
 browser.get(('https://accounts.google.com/ServiceLogin?'
