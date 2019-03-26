@@ -38,7 +38,7 @@ os.system('clear')
 
 print(colored("signing in...", "blue"))
 
-browser = webdriver.Chrome()
+browser = webdriver.Firefox()
 browser.get(('https://accounts.google.com/ServiceLogin?'
              'service=mail&continue=https://mail.google'
              '.com/mail/#identifier'))
